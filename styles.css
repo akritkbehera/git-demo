@@ -27,6 +27,29 @@ body {
 
 .header h1 {
     color: #333;
+    margin-bottom: 1.5rem;
+}
+
+/* Navigation styles */
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.main-nav a:hover {
+    background-color: #e0e0e0;
 }
 
 /* Main content styles */
