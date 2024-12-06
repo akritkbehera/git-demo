@@ -77,7 +77,13 @@ h2 {
 
 /* Empty sections for future content */
 .form-section {
-    /* Styles will be added in branch1 */
+    background-color: #e8f4f8;
+    padding: 20px;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
 }
 
 .gallery-section {
